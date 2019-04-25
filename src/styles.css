@@ -1,0 +1,9 @@
+.App {
+  margin: 1em;
+  font-family: sans-serif;
+  text-align: center;
+}
+.device-result {
+  margin: 0.5em;
+  display: inline-block;
+}
