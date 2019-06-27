@@ -7,7 +7,9 @@ import TodoInput from "../ToDo/TodoInput";
 import TodoList from "../ToDo/TodoList";
 import CounterComponent from "../containers/context/counterComponent";
 import { AppProvider } from "../containers/context/countContext";
-import CounterComponentExtra from "../containers/context/counterComponentExtra.";
+
+import MovieList from "../containers/movie/MovieList";
+import { MoviesProvider } from "../containers/movie/MoviesContext";
  
   
 export function Header() {
@@ -17,7 +19,7 @@ export function Header() {
         { menuItem: 'Reducer Example', render: () => <Tab.Pane><CountReducerExample/></Tab.Pane> },
         { menuItem: 'Redux Example', render: () => <Tab.Pane><div><h1>Todo</h1><TodoInput/><TodoList/></div></Tab.Pane> },
         { menuItem: 'Count Context', render: () => <Tab.Pane><div><h1>Count Context</h1><AppProvider><CounterComponent/></AppProvider></div></Tab.Pane> },
-        { menuItem: 'Count Context', render: () => <Tab.Pane><div><h1>Count Context</h1><AppProvider><CounterComponentExtra/></AppProvider></div></Tab.Pane> },
+        { menuItem: 'Movie List', render: () => <Tab.Pane><div><h1>Movie List</h1><MoviesProvider><MovieList/></MoviesProvider></div></Tab.Pane> },
       ]; 
     return (
         <>        

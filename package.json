@@ -19,7 +19,8 @@
     "redux": "^4.0.1",
     "redux-react-hook": "^3.3.1",
     "semantic-ui-css": "2.4.1",
-    "semantic-ui-react": "0.86.0"
+    "semantic-ui-react": "0.86.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "@types/node": "^11.13.6",
